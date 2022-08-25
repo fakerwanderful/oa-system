@@ -1,0 +1,26 @@
+<component name="libraryTable">
+  <library name="activiti-bpmn-converter-5.13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-bpmn-converter-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-bpmn-layout-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-bpmn-model-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-camel-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-cdi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-common-rest-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-cxf-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-diagram-rest-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-engine-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-explorer-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-json-converter-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-modeler-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-mule-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-osgi-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-rest-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-simple-workflow-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/activiti-spring-5.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/activiti5/commons-lang-2.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

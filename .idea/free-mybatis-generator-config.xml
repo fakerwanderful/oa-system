@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistentConfig">
+    <option name="historyConfigList">
+      <map>
+        <entry key="baoxiaobill">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src" />
+              <option name="daoName" value="BaoxiaobillMapper" />
+              <option name="daoPackage" value="com.web.oa.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src" />
+              <option name="modelName" value="Baoxiaobill" />
+              <option name="modelPackage" value="com.web.oa.pojo" />
+              <option name="name" value="baoxiaobill" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="baoxiaobill" />
+              <option name="useExample" value="true" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src" />
+              <option name="xmlPackage" value="com.web.oa.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="employee">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src" />
+              <option name="daoName" value="EmployeeMapper" />
+              <option name="daoPackage" value="com.web.oa.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src" />
+              <option name="modelName" value="Employee" />
+              <option name="modelPackage" value="com.web.oa.pojo" />
+              <option name="name" value="employee" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="employee" />
+              <option name="useExample" value="true" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src" />
+              <option name="xmlPackage" value="com.web.oa.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="leavebill">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src" />
+              <option name="daoName" value="LeavebillMapper" />
+              <option name="daoPackage" value="com.web.oa.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src" />
+              <option name="modelName" value="Leavebill" />
+              <option name="modelPackage" value="com.web.oa.pojo" />
+              <option name="name" value="leavebill" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="leavebill" />
+              <option name="useExample" value="true" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src" />
+              <option name="xmlPackage" value="com.web.oa.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="sys_permission">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src" />
+              <option name="daoName" value="SysPermissionMapper" />
+              <option name="daoPackage" value="com.web.oa.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src" />
+              <option name="modelName" value="SysPermission" />
+              <option name="modelPackage" value="com.web.oa.pojo" />
+              <option name="name" value="sys_permission" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="sys_permission" />
+              <option name="useExample" value="true" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src" />
+              <option name="xmlPackage" value="com.web.oa.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="sys_role">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src" />
+              <option name="daoName" value="SysRoleMapper" />
+              <option name="daoPackage" value="com.web.oa.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src" />
+              <option name="modelName" value="SysRole" />
+              <option name="modelPackage" value="com.web.oa.pojo" />
+              <option name="name" value="sys_role" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="sys_role" />
+              <option name="useExample" value="true" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src" />
+              <option name="xmlPackage" value="com.web.oa.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="sys_role_permission">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src" />
+              <option name="daoName" value="SysRolePermissionMapper" />
+              <option name="daoPackage" value="com.web.oa.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src" />
+              <option name="modelName" value="SysRolePermission" />
+              <option name="modelPackage" value="com.web.oa.pojo" />
+              <option name="name" value="sys_role_permission" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="sys_role_permission" />
+              <option name="useExample" value="true" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src" />
+              <option name="xmlPackage" value="com.web.oa.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="sys_user_role">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src" />
+              <option name="daoName" value="SysUserRoleMapper" />
+              <option name="daoPackage" value="com.web.oa.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src" />
+              <option name="modelName" value="SysUserRole" />
+              <option name="modelPackage" value="com.web.oa.pojo" />
+              <option name="name" value="sys_user_role" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="sys_user_role" />
+              <option name="useExample" value="true" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src" />
+              <option name="xmlPackage" value="com.web.oa.mapper" />
+            </Config>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

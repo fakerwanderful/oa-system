@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.web.oa.mapper.SysPermissionDaoCustom">
+
+    <!-- 根据用户id查询url -->
+    <select id="findPermissionListByUserId" parameterType="string" resultType="com.web.oa.pojo.SysPermission">
+	SELECT
+	  *
+	FROM
+	  sys_permission
+	WHERE TYPE = 'menu|permission'
+	  AND id IN
+	  (SELECT
+	    sys_permission_id
+	  FROM
+	    sys_role_permission
+	  WHERE sys_role_id IN
+	    (SELECT
+	      sys_role_id
+	    FROM
+	      sys_user_role
+	    WHERE sys_user_id = #{id}))
+  </select>
+
+    <!-- 根据用户id查询菜单 -->
+    <select id="findMenuListByUserId" parameterType="string" resultType="com.web.oa.pojo.SysPermission">
+  	SELECT
+	  *
+	FROM
+	  sys_permission
+	WHERE TYPE = 'menu'
+	  AND id IN
+	  (SELECT
+	    sys_permission_id
+	  FROM
+	    sys_role_permission
+	  WHERE sys_role_id IN
+	    (SELECT
+	      sys_role_id
+	    FROM
+	      sys_user_role
+	    WHERE sys_user_id = #{id}))
+  </select>
+
+
+    <resultMap id="findEmpAndRoleResultMap" type="com.web.oa.pojo.Employee">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="password" jdbcType="VARCHAR" property="password"/>
+        <result column="email" jdbcType="VARCHAR" property="email"/>
+        <result column="role" jdbcType="INTEGER" property="role"/>
+        <result column="manager_id" jdbcType="BIGINT" property="managerId"/>
+        <result column="salt" jdbcType="VARCHAR" property="salt"/>
+        <result column="managerName" jdbcType="VARCHAR" property="managerName"/>
+        <association property="sysRole" javaType="com.web.oa.pojo.SysRole">
+            <id column="roleId" jdbcType="VARCHAR" property="id"/>
+            <result column="roleName" jdbcType="VARCHAR" property="name"/>
+        </association>
+
+    </resultMap>
+
+    <select id="findEmpAndRole" resultMap="findEmpAndRoleResultMap">
+			SELECT emp1.*,
+				emp2.name managerName,
+        		role.id roleId,
+				role.name roleName
+				from
+				employee emp1
+				JOIN
+				employee emp2 ON emp1.id=emp2.id
+				join
+				sys_user_role s1 ON emp1.name=s1.sys_user_id
+				join
+				sys_role role on s1.sys_role_id=role.id
+	</select>
+
+    <resultMap id="findRoleAndPermissionByUserNameResultMap" type="com.web.oa.pojo.SysRole">
+        <id column="id" jdbcType="VARCHAR" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="available" jdbcType="CHAR" property="available"/>
+        <collection property="sysPermissionList" ofType="com.web.oa.pojo.SysPermission">
+            <id column="permission_id" jdbcType="BIGINT" property="id"/>
+            <result column="permission_name" jdbcType="VARCHAR" property="name"/>
+            <result column="type" jdbcType="VARCHAR" property="type"/>
+            <result column="url" jdbcType="VARCHAR" property="url"/>
+            <result column="percode" jdbcType="VARCHAR" property="percode"/>
+        </collection>
+    </resultMap>
+
+
+    <select id="findRoleAndPermissionByUserName" parameterType="java.lang.String"
+            resultMap="findRoleAndPermissionByUserNameResultMap">
+           SELECT
+				s1.*,
+				s3.id permission_id,
+				s3.name permission_name,
+				s3.type,
+				s3.url,
+				s3.percode
+				from sys_role s1
+				JOIN sys_role_permission s2 on s1.id=s2.sys_role_id
+				JOIN sys_permission s3 on s2.sys_permission_id=s3.id
+				JOIN sys_user_role s4 on s4.sys_role_id=s1.id
+				JOIN employee emp on emp.name=s4.sys_user_id
+			WHERE emp.name=#{name}
+	</select>
+
+    <select id="findPermissionListByRoleId" parameterType="java.lang.String"
+            resultType="com.web.oa.pojo.SysPermission">
+		SELECT
+				s1.*
+				from  sys_permission s1
+				JOIN sys_role_permission s2 on s1.id=s2.sys_permission_id
+				JOIN  sys_role s3 on s3.id=s2.sys_role_id
+			WHERE s3.id=#{id}
+	</select>
+
+
+</mapper>

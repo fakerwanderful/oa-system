@@ -1,0 +1,51 @@
+<component name="libraryTable">
+  <library name="aopalliance-1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/aspectjweaver-1.8.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/classmate-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/commons-codec-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/commons-dbcp-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/commons-fileupload-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/commons-io-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/commons-lang3-3.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/commons-logging-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/commons-net-3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/commons-pool-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/hibernate-validator-5.2.2.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/httpclient-4.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/httpcore-4.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/jackson-annotations-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/jackson-core-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/jackson-databind-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/jboss-logging-3.1.0.CR2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/joda-time-2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/jsqlparser-0.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/junit-4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/mybatis-3.2.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/mybatis-paginator-1.2.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/mybatis-spring-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/mysql-connector-java-8.0.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/ojdbc6-11.1.0.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/pagehelper-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/slf4j-api-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/slf4j-log4j12-1.6.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-aop-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-aspects-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-beans-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-context-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-core-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-expression-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-jdbc-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-test-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-tx-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-web-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/spring-webmvc-4.1.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/ssm_all/validation-api-1.1.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
